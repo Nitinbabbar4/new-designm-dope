@@ -1,0 +1,759 @@
+﻿<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>check-out</title>
+    <!--css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--BOOTSTRAP-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="fonts/flaticon.css" rel="stylesheet" type="text/css">
+    <!--thumbnail-slider-->
+    <link href="css/lightslider.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="index-new product-list checkout-page">
+        <!--page wrap-->
+
+        <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
+
+        <div id="top" class="container-fluid top-bar border">
+            <div class="container">
+
+                <div class="col-md-4 top-bar-left"><p><i class="flaticon-phone-call"></i>&nbsp; Have a question? call us <b>xx (xxx) xxx xxxx</b></p></div>
+
+                <div class="col-md-8 text-right">
+
+                    <div class="sub-menu bor">
+                        <a href="#" class="main-a">English <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">French</a></li>
+                        </ul>
+                    </div>
+                    <div class="bor log"><a href="#" data-toggle="modal" data-target="#myModal2"><b>Login</b></a>&nbsp;or&nbsp;<a href="#" data-toggle="modal" data-target="#myModal"><b>Register</b></a></div>
+
+                    <div class="bor"><p><a href="#"><i class="flaticon-heart"></i>&nbsp; Wish list</a></p></div>
+
+                    <div class="cart-item">
+                        <div class="bor cart-det"><i class="flaticon-shopping-bag"></i>&nbsp; <h2>My cart <b>$ 950.80</b></h2></div>
+
+
+                        <div class="cart-item-hover">
+                            <div class="cart-item-list text-left">
+                                <img src="images/cart-item-1.jpg" alt="" />
+                                <a href="#"><h3>Glass Hookah</h3></a>
+                                <b><a href="#">X</a></b>
+                                <p>$88.00 <del>$120.00</del></p>
+                            </div>
+                            <div class="cart-item-list text-left">
+                                <img src="images/cart-item-2.jpg" alt="" />
+                                <a href="#"><h3>Glass Hookah</h3></a>
+                                <b><a href="#">X</a></b>
+                                <p>$90.00 <del>$122.00</del></p>
+                            </div>
+                            <div class="border"></div>
+                            <div class="cart-total">
+                                <h6>Total Price</h6> <p>$178.00</p><div class="clearfix"></div>
+                                <a href="#" class="cart-view">View all</a>
+                                <a href="check-out.html" class="cart-checkout">Check out</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <div class="col-sm-5 modal-img">
+                                <img src="images/menu-banner.jpg" class="img-responsive" alt="" />
+                                <h2>Sign In</h2>
+                                <p>Sign up our Website and receive up to $100 coupon for first shopping</p>
+                                <div class="modal-img-text"><a href="#"><img src="images/logo-white-new.png" alt="" class="img-responsive" /></a></div>
+                            </div>
+                            <div class="col-sm-7 modal-text">
+
+                                <div class="form-sec">
+
+
+                                    <div class="tab-content">
+                                        <div class="social-button">
+                                            <div class="facebook"><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i>Sign in with facebook</a></div>
+                                            <div class="facebook google"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>Sign in with google</a></div>
+                                            <div class="facebook twitter text-center"><a href="#"><i class="fa fa-twitter pull-left" aria-hidden="true"></i>Sign in with twitter</a></div>
+                                        </div>
+                                        <div class="or"><span>Or</span></div>
+                                        <div class="input-row">
+                                            <h5>username</h5><input class="input-1" type="text" name="username" placeholder="Enter username" />
+                                            <span class="underline"></span>
+                                        </div>
+                                        <div class="input-row">
+                                            <h5>email</h5><input class="input-1" type="email" name="email" placeholder="Enter your Email ID" />
+                                            <span class="underline"></span>
+                                        </div>
+                                        <div class="input-row">
+                                            <h5>password</h5><input class="input-1" type="text" name="password" placeholder="Enter your password" />
+                                            <span class="underline"></span>
+                                        </div>
+                                        <div class="input-row">
+                                            <h5>Re-enter your password</h5><input class="input-1" type="text" name="re-enter-password" placeholder="Re-Enter your Password" />
+                                            <span class="underline"></span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="privacy-sec">
+                                            <input id="4" type="checkbox" /><label for="4">Remember me</label>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="button">
+                                            <a href="#">Get started</a>
+                                        </div>
+                                        <div class="modal-acc">
+                                            <p>Already have an account? <a data-toggle="modal" id="reg-m" data-target="#myModal2" href="#">Log In</a></p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--modal-->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <div class="col-sm-5 modal-img">
+                                <img src="images/menu-banner.jpg" alt="" class="img-responsive" />
+                                <h2>Login</h2>
+                                <p>Sign up our Website and receive up to $100 coupon for first shopping</p>
+                                <div class="modal-img-text"><a href="#"><img src="images/logo-white-new.png" alt="" class="img-responsive" /></a></div>
+                            </div>
+                            <div class="col-sm-7 modal-text">
+
+                                <div class="form-sec">
+
+
+                                    <div class="tab-content">
+
+                                        <div class="social-button">
+                                            <div class="facebook"><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i>Sign in with facebook</a></div>
+                                            <div class="facebook google"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>Sign in with google</a></div>
+                                            <div class="facebook twitter text-center"><a href="#"><i class="fa fa-twitter pull-left" aria-hidden="true"></i>Sign in with twitter</a></div>
+                                        </div>
+                                        <div class="or"><span>Or</span></div>
+                                        <div class="input-row">
+                                            <h5>email</h5><input class="input-1" type="email" name="email" placeholder="Enter your Email ID" />
+                                            <span class="underline"></span>
+                                        </div>
+                                        <div class="input-row">
+                                            <h5>password</h5><input class="input-1" type="text" name="password" placeholder="Enter your password" />
+                                            <span class="underline"></span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="privacy-sec">
+                                            <input id="5" type="checkbox" /><label for="5">Remember me</label>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="button">
+                                            <a href="#">Get started</a>
+                                        </div>
+                                        <div class="modal-acc">
+                                            <p>Already have an account? <a data-toggle="modal" id="log-m" data-target="#myModal" href="#">Sign In</a></p>
+                                        </div>
+                                        <div class="swiss-right"><p>© 2018 <a href="#">Loyal Shop</a>. All Rights Reserved.</p></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Navbar-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo-black-new.png" alt="" class="img-responsive" /></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <!--<li><a href="index.html">About <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <div class="nav-mega-menu">
+                                        <div class="nav-main-menu">
+                                            <span>
+                                                    <a href="#">Home</a>
+                                                    <a href="#"></a>
+                                                    <a href="#"></a>
+                                                    <a href="#"></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                    </li>-->
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Events</a> </li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--Search-bar-->
+        <div class="container-fluid search-bar">
+            <div class="container">
+                <div class="col-md-3">
+                    <div class="categories">
+                        <ul>
+                            <li class="sub-menu">
+                                <a class="main-a" href="javascript:void(0)">All Categories <i class='fa fa-angle-down'></i></a>
+
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="images/hookah-icon.png" />Hookah<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <div class="categories-mega-menu">
+                                            <div class="categories-main-menu">
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+
+                                            </div>
+                                            <div class="categories-img">
+                                                <div class="single-banner-2"><a href="#"><img src="images/menu-banner.jpg" class="img-responsive" alt="banner"></a></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/hookah-icon.png" />Hookah<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <div class="categories-mega-menu">
+                                            <div class="categories-main-menu">
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+
+                                            </div>
+                                            <div class="categories-img">
+                                                <div class="single-banner-2"><a href="#"><img src="images/menu-banner.jpg" class="img-responsive" alt="banner"></a></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/hookah-icon.png" />Hookah<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <div class="categories-mega-menu">
+                                            <div class="categories-main-menu">
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+
+                                            </div>
+                                            <div class="categories-img">
+                                                <div class="single-banner-2"><a href="#"><img src="images/menu-banner.jpg" class="img-responsive" alt="banner"></a></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/hookah-icon.png" />Hookah<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <div class="categories-mega-menu">
+                                            <div class="categories-main-menu">
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+
+                                            </div>
+                                            <div class="categories-img">
+                                                <div class="single-banner-2"><a href="#"><img src="images/menu-banner.jpg" class="img-responsive" alt="banner"></a></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/hookah-icon.png" />Hookah<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <div class="categories-mega-menu">
+                                            <div class="categories-main-menu">
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+                                                <span>
+                                                    <a href="#" class="title">Hookah</a>
+                                                    <a href="#">Khalil Mamoon Hookah</a>
+                                                    <a href="#">Mya Hookah</a>
+                                                    <a href="#">Chinese Hookah</a>
+                                                    <a href="#">Glass Hookah</a>
+                                                    <a href="#">Mob Hookah</a>
+                                                    <a href="#">Modern Hookah</a>
+                                                    <a href="#">Egyptian Hookah</a>
+                                                    <a href="#">Party Hookah</a>
+                                                    <a href="#">Starbuzz Hookah</a>
+                                                    <a href="#">Stem Only</a>
+                                                </span>
+
+                                            </div>
+                                            <div class="categories-img">
+                                                <div class="single-banner-2"><a href="#"><img src="images/menu-banner.jpg" class="img-responsive" alt="banner"></a></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 search">
+                    <input type="text" name="search" placeholder="Search by product name" />
+                    <select>
+                        <option>All Categories</option>
+                    </select>
+                    <div class="round search-round"><a href="#"><i class="flaticon-search"></i></a></div>
+                </div>
+
+                <div class="col-md-3 soc text-right">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--Header-->
+        <div class="container-fluid header-main checkout-bg">
+            <div class="container text-center">
+
+                <h2>Check out</h2>
+                <div class="link-sec">
+                    <a href="#">Home</a> <i class="fa fa-angle-right"></i> <a href="#">Check out</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!--top-->
+        <div class="container product-table padd-80">
+
+            <div class="col-md-12 alert-faq">
+                <div class="accordion accordion-open" id="section1">Returning customer? <a href="#" class="content-subhead">Click here to login</a></div>
+                <div class="accordian-body">
+                    <div class="faq">
+                        <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
+                        <div class="row">
+                            <div class="col-md-4 checkout">
+                                <h3>Username or Email* </h3><input type="text">
+                            </div><div class="col-md-4 checkout"><h3>Password*</h3><input type="password"></div>
+                        </div>
+                        <div class="login-btn">
+                            <a class="article-read btn-bg" href="#">LOG IN</a>
+                        </div><input id="rem" type="checkbox"><label class="label-name" for="rem">Remember me</label>
+                        <br />
+                        <a href="#" class="lost-pwd">Lost your password ?</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col-md-12 alert-faq">
+                <div class="accordion accordion-open" id="section2">Have a coupon? <a href="#" class="content-subhead"> Click here to enter your code</a></div>
+                <div class="accordian-body">
+
+                    <div class="faq">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 checkout"><input type="text" placeholder="Coupon code" class="alert-coupon"></div>
+                            <a class="article-read btn-bg cup-btn" href="#">APPLY COUPON</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col-md-6">
+
+                <form>
+                    <div class="row checkout">
+                        <div class="col-md-12"><h2>Billing Details</h2></div>
+                        <div class="col-md-6"><h3>First Name *</h3><input type="text"></div>
+                        <div class="col-md-6"><h3>Last Name *</h3><input type="text"></div>
+                        <div class="col-md-12"><h3>Company Name </h3><input type="text"></div>
+                        <div class="col-md-6"><h3>Email Address *</h3><input type="email"></div>
+                        <div class="col-md-6"><h3>Phone *</h3><input type="tel"></div>
+                        <div class="col-md-12">
+                            <h3>Country *</h3>
+                            <select class="form-control">
+                                <option>India</option>
+                                <option>England</option>
+                                <option>China</option>
+                                <option>Sri Lanka</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12"><h3>Address *</h3><input type="text" placeholder="Street Address"></div>
+                        <div class="col-md-12"><input type="text" placeholder="Apartment, suite, unit etc. (optional)"></div>
+                        <div class="col-md-12"><h3>Town / City *</h3><input type="text" placeholder="Street Address"></div>
+                        <div class="col-md-6"><h3>Email Address *</h3><input type="email"></div>
+                        <div class="col-md-6"><h3>Postcode *</h3><input type="tel"></div>
+                        <div class="col-md-12 check-faq checkbox-span">
+
+                            <div class="accordion accordion-open" id="section3">
+
+                                <label>Create an account?</label>
+                                <span></span>
+
+                            </div>
+
+                            <div class="accordian-body">
+                                <div class="faq">
+                                    <p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+                                    <div class="row"><div class="col-md-12"><h3>Account Password </h3><input type="password" /></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="col-md-12 checkout"><h2>Your order</h2></div>
+
+                <div class="col-md-12 element-table">
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th class="text-right">Total</th>
+                            </tr>
+
+                            <tr>
+                                <td>Glass Hookah</td>
+                                <td class="text-right">$620.00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Glass Hookah</td>
+                                <td class="text-right">$200.00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Glass Hookah</td>
+                                <td class="text-right">$1200</td>
+                            </tr>
+
+                            <tr>
+                                <td>Glass Hookah</td>
+                                <td class="text-right">$1800</td>
+                            </tr>
+
+                            <tr>
+                                <td>Glass Hookah</td>
+                                <td class="text-right">$500</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="col-md-12 pay-faq">
+
+                    <h2>Payment mathod</h2>
+
+                    <div class="accordion accordion-open check-faq mt-20" id="section9"><label>Direct bank transfer</label><span></span></div>
+                    <div class="accordian-body">
+                        <div class="faq">
+                            <span class="payment-box"></span>
+                            <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-open check-faq" id="section8"><label>Create an account?</label><span></span></div>
+                    <div class="accordian-body">
+                        <div class="faq">
+                            <span class="payment-box"></span>
+                            <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-open check-faq" id="section7">
+                        <label>PayPal</label> <img src="images/check-out-payment.png" alt="" />
+                        <a href="#"><h4 class="content-subhead">What is PayPal?</h4></a><span class="payment-circle"></span>
+                    </div>
+                    <div class="accordian-body">
+                        <div class="faq">
+                            <span class="payment-box"></span>
+                            <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account..</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-12 text-center"><a href="#" class="coupon btn-bg">Place order</a></div> <div class="clearfix"></div>
+
+                </div>
+
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+        <!--footer-->
+        <div class="container-fluid footer-sec">
+
+            <div class="container">
+                <div class="col-sm-6 col-md-3 footer-about">
+                    <a href="#"><img src="images/logo-white-new.png" alt=""></a>
+                    <p>Lorem ipsum dolor sit  consectetur adipiscing elit. Vestibulum porttitor egestas orci, vitae ullamc. Lorem ipsum dolor sit adipiscing elit. Lorem ipsum dolor sit  consectetur adipiscing elit. </p>
+                </div>
+                <div class="col-md-3 col-sm-6 contact-info use foot-a">
+                    <h3>Usefull Links</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>About</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Shop</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Brands</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Events</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 contact-info use foot-a">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>My Account</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Track your Order</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Wishlist</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Customer Service</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Returns/Exchange</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>FAQs</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Product Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 contact-info contact-span">
+                    <h3>Contact Information</h3>
+
+                    <div class="contact">
+                        <i class="flaticon-placeholder-1"></i>
+                        <p>xxx,xxxxxxx, xxxxxxxxxxxxx ,xxxxxxxxxx</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="contact">
+                        <i class="flaticon-headphones"></i>
+                        <p class="phone-no">+xx (xxx) xxx xxxx</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="contact">
+                        <i class="flaticon-message"></i>
+                        <p>xxx@xxx.com</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="follow-us">
+                        <h2>Follow us</h2>
+                        <div class="follow">
+                            <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--newsletter-->
+            <div class="container news-letter">
+                <div class="letter-news">
+                    <div class="col-md-4 col-sm-6 letter">
+                        <i class="flaticon-newsletter"></i>
+                        <p>Sign up to</p>
+                        <h2>Newsletter</h2>
+                    </div>
+                    <div class="col-md-3 col-sm-6 sign-news">
+                        <p>
+                            Sign up our newsletter and receive
+                            $20 coupon for first shopping
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-sm-12 email-address">
+                        <input type="email" name="email" placeholder="Enter your email address" />
+                        <div class="round">
+                            <a href="#"><i class="flaticon-paper-plane"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Copyright-->
+            <div class="container copy-right">
+                <div class="right-copy">
+                    <a href="#top" id="toper"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+                    <div class="col-md-6 col-sm-6 copy-text">
+                        <p>© 2019 <a href="#">DOPEGLASS </a>. All rights reserved DOPEGLASS Brand.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 copy-image text-right">
+                        <a href="#"><img src="images/pay-1.png" alt="" class="img-responsive" /></a>
+                        <a href="#"><img src="images/pay-2.png" alt="" class="img-responsive" /></a>
+                        <a href="#"><img src="images/pay-3.png" alt="" class="img-responsive" /></a>
+                        <a href="#"><img src="images/pay-4.png" alt="" class="img-responsive" /></a>
+                        <a href="#"><img src="images/pay-5.png" alt="" class="img-responsive" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/page wrap-->
+    <!--js-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--checkout-->
+    <script src="js/jquery.accordion.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.accordion').accordion({defaultOpen: 'some_id'}); //some_id section1 in demo
+        });
+    </script>
+    <!--custom-->
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>
